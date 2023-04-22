@@ -212,8 +212,8 @@ canvas {
 		margin: 0 8vw 0 0;
 	}
 	.frame__demos {
-		/* margin: 10; */
-		grid-area: demos;
+		margin: 0;
+		/* grid-area: demos; */
 		/* justify-self: end; */
 	}
 	.frame__links a {
