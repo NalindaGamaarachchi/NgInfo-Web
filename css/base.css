@@ -29,31 +29,6 @@ body {
 	--color-info: #FF5F73;
 }
 
-.demo-3 {
-	--color-link-hover: #DFD98A;
-	--color-alt: #DFD98A;
-	--color-info: #A90519;
-}
-
-.demo-4 {
-	--color-info: #D856BF;
-}
-
-.demo-5 {
-	--color-link-hover: #334BF7;
-	--color-alt: #334BF7;
-	--color-info: #DC5B20;
-}
-
-.demo-6 {
-	--color-info: #FF322F;
-}
-
-.demo-7 {
-	--color-link-hover: #7686BF;
-	--color-alt: #7686BF;
-	--color-info: #E2173C;
-}
 
 /* Page Loader */
 .js .loading::before,
@@ -206,7 +181,7 @@ canvas {
 	height: 100%;
 }
 
-@media screen and (min-width: 53em) {
+@media screen and (min-width: 10em) {
 	.message {
 		display: none;
 	}
