@@ -212,7 +212,7 @@ canvas {
 		margin: 0 8vw 0 0;
 	}
 	.frame__demos {
-		margin: 0;
+		margin: 10;
 		grid-area: demos;
 		justify-self: end;
 	}
