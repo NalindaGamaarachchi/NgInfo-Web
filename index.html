@@ -62,6 +62,9 @@
     <script src="js/Distortions.js"></script>
     <script>
       (function () {
+        document.addEventListener("contextmenu", function (e) {
+          e.preventDefault();
+        });
         const container = document.getElementById("app");
 
         const options = {
