@@ -1,6 +1,8 @@
 {
   "name": "nginfo",
   "version": "0.1.0",
+  "private": true,
+  "homepage": "/build",  
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@hamishmw/react-scripts-postcss": "4.0.0-mod1",
