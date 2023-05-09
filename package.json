@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "homepage": "http://nginfo.me/NgInfo-Web/",
+  "name": "nginfo",
+  "homepage": "http://nginfo.me",
   "version": "0.1.0",
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -43,7 +43,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "prettier-format": "prettier --config .prettierrc \"src/**/*.js\" --write",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "reactSnap": {
     "skipThirdPartyRequests": true,
