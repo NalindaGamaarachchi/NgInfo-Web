@@ -1,8 +1,6 @@
 {
-  "name": "nginfo",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "/build",  
+  "repository": "#",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@hamishmw/react-scripts-postcss": "4.0.0-mod1",
@@ -45,7 +43,7 @@
     "prettier-format": "prettier --config .prettierrc \"src/**/*.js\" --write",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build:staging": "env-cmd -f .env.staging npm run build"
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
   },
   "reactSnap": {
     "skipThirdPartyRequests": true,
